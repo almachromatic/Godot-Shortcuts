@@ -1,8 +1,4 @@
-Connect to
-Node2D
--Area2D
---CollisionShape2d
--label
+
 
 extends Node2D
 @onready var label: Label = $Label
