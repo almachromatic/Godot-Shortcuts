@@ -29,7 +29,7 @@ func _process(_delta: float) -> void:
 	else:
 		label.hide()
 
-
+#set from Node
 func _on_area_2d_area_entered(area: Area2D) -> void:
 	current_interactions.push_back(area)
 
