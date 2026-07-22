@@ -3,7 +3,7 @@
 extends StaticBody2D
 
 @onready var interactable: Area2D = $Interactable
-@onready var sprite_2d: AnimatedSprite2D = $Sprite2D
+@onready var sprite_2d: AnimatedSprite2D = $Sprite2D #pull from sprite node, you'll likely need to change the name
 
 
 func _ready() -> void:
