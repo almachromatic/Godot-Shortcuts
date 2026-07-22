@@ -1,7 +1,7 @@
 
 
 extends Node2D
-@onready var label: Label = $Label
+@onready var label: Label = $Label #pull from node
 
 var current_interactions: = []
 var can_interact: = true
@@ -29,7 +29,7 @@ func _process(_delta: float) -> void:
 	else:
 		label.hide()
 
-#set from Node
+#set from area 2d Node and change func
 func _on_area_2d_area_entered(area: Area2D) -> void:
 	current_interactions.push_back(area)
 
